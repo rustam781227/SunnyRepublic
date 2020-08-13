@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <link rel="stylesheet" href="Styles/Styles.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="http://127.0.0.1:8080/Images/logo.jpg" alt="logo" />
+        <nav>
+            <ul class="nav__links">
+                <li>@Html.ActionLink("Главная", "Index", "Home")</li>
+                <li>@Html.ActionLink("О нас", "AboutPage", "Home")</li>
+                <li>@Html.ActionLink("Группы", "GroupsPage", "Home")</li>
+                <li>@Html.ActionLink("Курсы", "CoursesPage", "Home")</li>
+                <li>@Html.ActionLink("Языковые клубы", "LanguageClubsPage", "Home")</li>
+                <li>@Html.ActionLink("Практика в Лондоне", "PracticeInLondonPage", "Home")</li>
+            </ul>
+        </nav>
+        <button>Contact</button>
+    </header>
+    @RenderBody()
+<footer>
+    <div class="firstCol">
+        Contact us:<br><br>
+        <a href="https://yandex.ru/maps/1104/cherkessk/?ll=42.047671%2C44.218597&mode=whatshere&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&whatshere%5Bpoint%5D=42.047738%2C44.218547&whatshere%5Bzoom%5D=19&z=19">
+            <img class="location" src="http://127.0.0.1:8080/Images/location.png" />
+        </a>
+        <a href="tel:+79289244777">
+            <img class="phone" src="http://127.0.0.1:8080/Images/phone.png" />
+        </a>
+    </div>
+    <div class="secondCol">
+    </div>
+    <div class="thirdCol">
+        Follow us:<br><br>
+        <a href="https://www.instagram.com/sunny_republic/?igshid=te0ofu252slk">
+            <img class="instagram" src="http://127.0.0.1:8080/Images/instagramIcon.png" />
+        </a>
+        <a href="https://vk.com/sunnyrepublic">
+            <img class="vk" src="http://127.0.0.1:8080/Images/vkIcon.png" />
+        </a>
+    </div>
+</footer>
+</body>
+</html>

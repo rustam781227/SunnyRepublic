@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnyRepublic", "SunnyRepublic\SunnyRepublic.csproj", "{C11CA5B8-288E-4B0B-8E75-F56756EC16F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnyRepublic.Tests", "SunnyRepublic.Tests\SunnyRepublic.Tests.csproj", "{4C1A65F4-DF51-4AC6-9D36-7795B90449C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C11CA5B8-288E-4B0B-8E75-F56756EC16F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11CA5B8-288E-4B0B-8E75-F56756EC16F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11CA5B8-288E-4B0B-8E75-F56756EC16F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11CA5B8-288E-4B0B-8E75-F56756EC16F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1A65F4-DF51-4AC6-9D36-7795B90449C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1A65F4-DF51-4AC6-9D36-7795B90449C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1A65F4-DF51-4AC6-9D36-7795B90449C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1A65F4-DF51-4AC6-9D36-7795B90449C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
